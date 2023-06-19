@@ -1,0 +1,67 @@
+/* Round corners */
+* {
+  border-radius: var(--roundness);
+}
+
+/* Additional adjustments for specific elements */
+
+/* Round buttons */
+button {
+  border-radius: var(--roundness);
+}
+
+/* Round avatars */
+.avatar-3EQepX {
+  border-radius: 50%;
+}
+
+/* Round server icons */
+.wrapper-1BJsBx {
+  border-radius: 50%;
+}
+
+/* Round channel icons */
+.channelIcon-1xdsa- {
+  border-radius: 50%;
+}
+
+/* Existing code with UI modifications */
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.redd.it/q94itx6u96g61.gif');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center left;
+  --popout-image: url('https://static.displate.com/392x280/displate/2023-01-23/25febee251f4f6fb3f147b7d1f49b1ba_1f798d123f9859ff0a1537ed4db6ef51.jpg');
+  --popout-image-blur: 2px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: url('https://static.displate.com/392x280/displate/2023-01-23/25febee251f4f6fb3f147b7d1f49b1ba_1f798d123f9859ff0a1537ed4db6ef51.jpg');
+  --overlay-image-blur: 2px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://static.displate.com/392x280/displate/2023-01-23/25febee251f4f6fb3f147b7d1f49b1ba_1f798d123f9859ff0a1537ed4db6ef51.jpg');
+  --home-button-size: contain;
+  --home-button-position: center;
+  --serverlist-brightness: 0;
+  --left-brightness: 0;
+  --middle-brightness: 0;
+  --right-brightness: 0;
+  --overlay-brightness: 0;
+  --gradient-primary: 76,175,80;
+  --gradient-secondary: 226,85,24;
+  --link-colour: #FCFF3B;
+  --scrollbar-colour: rgb(255,193,7,1);
+  --gradient-direction: 15deg;
+  --tint-colour: 234,124,35;
+  --tint-brightness: 0.12;
+  --font: gg sans;
+  --window-padding: 35px;
+  --window-roundness: 20px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
